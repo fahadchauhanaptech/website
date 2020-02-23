@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Vinegar food resturent</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
+.section-padding {
+    padding: 45px 0;
+}
+.section-dark {
+    background-color: #f9f9f9;
+    z-index: -2;
+}
+.form-control,
+.form-group .form-control {
+    border: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#009688)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#009688, #009688), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#009688, #009688), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
+    -webkit-background-size: 0 2px, 100% 1px;
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center -webkit-calc(100% - 1px);
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: background 0s ease-out;
+    -o-transition: background 0s ease-out;
+    transition: background 0s ease-out;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.form-control::-moz-placeholder,
+.form-group .form-control::-moz-placeholder {
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-control:-ms-input-placeholder,
+.form-group .form-control:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-control::-webkit-input-placeholder,
+.form-group .form-control::-webkit-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-control[disabled],
+.form-control[readonly],
+.form-group .form-control[disabled],
+.form-group .form-control[readonly],
+fieldset[disabled] .form-control,
+fieldset[disabled] .form-group .form-control {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.form-control[disabled],
+.form-group .form-control[disabled],
+fieldset[disabled] .form-control,
+fieldset[disabled] .form-group .form-control {
+    background-image: none;
+    border-bottom: 1px dotted #D2D2D2
+}
+
+.form-group {
+    position: relative
+}
+
+.form-group.label-floating label.control-label,
+.form-group.label-placeholder label.control-label,
+.form-group.label-static label.control-label {
+    position: absolute;
+    pointer-events: none;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all
+}
+
+.form-group.label-floating label.control-label {
+    will-change: left, top, contents
+}
+
+.form-group.label-placeholder:not(.is-empty) label.control-label {
+    display: none
+}
+
+.form-group .help-block {
+    position: absolute;
+    display: none
+}
+
+.form-group.is-focused .form-control {
+    outline: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#009688)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#009688, #009688), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#009688, #009688), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
+    -webkit-background-size: 100% 2px, 100% 1px;
+    background-size: 100% 2px, 100% 1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.form-group.is-focused .form-control .material-input:after {
+    background-color: #009688
+}
+
+.form-group.is-focused label,
+.form-group.is-focused label.control-label {
+    color: #009688
+}
+
+.form-group.is-focused.label-placeholder label,
+.form-group.is-focused.label-placeholder label.control-label {
+    color: #BDBDBD
+}
+
+.form-group.is-focused .help-block {
+    display: block
+}
+
+.form-group.has-warning .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-group.has-warning.is-focused .form-control {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5722), to(#ff5722)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#ff5722, #ff5722), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#ff5722, #ff5722), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#ff5722, #ff5722), linear-gradient(#D2D2D2, #D2D2D2)
+}
+
+.form-group.has-warning .help-block,
+.form-group.has-warning label.control-label {
+    color: #ff5722
+}
+
+.form-group.has-error .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-group.has-error .help-block,
+.form-group.has-error label.control-label {
+    color: #f44336
+}
+
+.form-group.has-success .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-group.has-success.is-focused .form-control {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4caf50), to(#4caf50)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#4caf50, #4caf50), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#4caf50, #4caf50), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2)
+}
+
+.form-group.has-success .help-block,
+.form-group.has-success label.control-label {
+    color: #4caf50
+}
+
+.form-group.has-info .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.form-group.has-info.is-focused .form-control {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), to(#03a9f4)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#03a9f4, #03a9f4), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#03a9f4, #03a9f4), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#03a9f4, #03a9f4), linear-gradient(#D2D2D2, #D2D2D2)
+}
+
+.form-group.has-info .help-block,
+.form-group.has-info label.control-label {
+    color: #03a9f4
+}
+
+.form-group textarea {
+    resize: none
+}
+
+.form-group textarea~.form-control-highlight {
+    margin-top: -11px
+}
+
+.form-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.form-group select~.material-input:after {
+    display: none
+}
+
+.form-control {
+    margin-bottom: 7px
+}
+
+.form-control::-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-control:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+.checkbox label,
+.radio label,
+label {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+label.control-label {
+    font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+    margin: 16px 0 0 0
+}
+
+.help-block {
+    margin-top: 0;
+    font-size: 12px
+}
+
+.form-group {
+    padding-bottom: 7px;
+    margin: 28px 0 0 0
+}
+
+.form-group .form-control {
+    margin-bottom: 7px
+}
+
+.form-group .form-control::-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group .form-control:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group .form-control::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group .checkbox label,
+.form-group .radio label,
+.form-group label {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group label.control-label {
+    font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+    margin: 16px 0 0 0
+}
+
+.form-group .help-block {
+    margin-top: 0;
+    font-size: 12px
+}
+
+.form-group.label-floating label.control-label,
+.form-group.label-placeholder label.control-label {
+    top: -7px;
+    font-size: 16px;
+    line-height: 1.42857143
+}
+
+.form-group.label-floating.is-focused label.control-label,
+.form-group.label-floating:not(.is-empty) label.control-label,
+.form-group.label-static label.control-label {
+    top: -30px;
+    left: 0;
+    font-size: 12px;
+    line-height: 1.07142857
+}
+
+.form-group.label-floating input.form-control:-webkit-autofill~label.control-label label.control-label {
+    top: -30px;
+    left: 0;
+    font-size: 12px;
+    line-height: 1.07142857
+}
+
+.form-group.form-group-sm {
+    padding-bottom: 3px;
+    margin: 21px 0 0 0
+}
+
+.form-group.form-group-sm .form-control {
+    margin-bottom: 3px
+}
+
+.form-group.form-group-sm .form-control::-moz-placeholder {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-sm .form-control:-ms-input-placeholder {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-sm .form-control::-webkit-input-placeholder {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-sm .checkbox label,
+.form-group.form-group-sm .radio label,
+.form-group.form-group-sm label {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-sm label.control-label {
+    font-size: 9px;
+    line-height: 1.125;
+    font-weight: 400;
+    margin: 16px 0 0 0
+}
+
+.form-group.form-group-sm .help-block {
+    margin-top: 0;
+    font-size: 9px
+}
+
+.form-group.form-group-sm.label-floating label.control-label,
+.form-group.form-group-sm.label-placeholder label.control-label {
+    top: -11px;
+    font-size: 11px;
+    line-height: 1.5
+}
+
+.form-group.form-group-sm.label-floating.is-focused label.control-label,
+.form-group.form-group-sm.label-floating:not(.is-empty) label.control-label,
+.form-group.form-group-sm.label-static label.control-label {
+    top: -25px;
+    left: 0;
+    font-size: 9px;
+    line-height: 1.125
+}
+
+.form-group.form-group-sm.label-floating input.form-control:-webkit-autofill~label.control-label label.control-label {
+    top: -25px;
+    left: 0;
+    font-size: 9px;
+    line-height: 1.125
+}
+
+.form-group.form-group-lg {
+    padding-bottom: 9px;
+    margin: 30px 0 0 0
+}
+
+.form-group.form-group-lg .form-control {
+    margin-bottom: 9px
+}
+
+.form-group.form-group-lg .form-control::-moz-placeholder {
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-lg .form-control:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-lg .form-control::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-lg .checkbox label,
+.form-group.form-group-lg .radio label,
+.form-group.form-group-lg label {
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #BDBDBD;
+    font-weight: 400
+}
+
+.form-group.form-group-lg label.control-label {
+    font-size: 14px;
+    line-height: .99999998;
+    font-weight: 400;
+    margin: 16px 0 0 0
+}
+
+.form-group.form-group-lg .help-block {
+    margin-top: 0;
+    font-size: 14px
+}
+
+.form-group.form-group-lg.label-floating label.control-label,
+.form-group.form-group-lg.label-placeholder label.control-label {
+    top: -5px;
+    font-size: 18px;
+    line-height: 1.3333333
+}
+
+.form-group.form-group-lg.label-floating.is-focused label.control-label,
+.form-group.form-group-lg.label-floating:not(.is-empty) label.control-label,
+.form-group.form-group-lg.label-static label.control-label {
+    top: -32px;
+    left: 0;
+    font-size: 14px;
+    line-height: .99999998
+}
+
+.form-group.form-group-lg.label-floating input.form-control:-webkit-autofill~label.control-label label.control-label {
+    top: -32px;
+    left: 0;
+    font-size: 14px;
+    line-height: .99999998
+}
+
+select.form-control {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.form-group.is-focused select.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #D2D2D2
+}
+
+.form-group.is-focused select.form-control[multiple],
+select.form-control[multiple] {
+    height: 85px
+}
+
+.input-group-btn .btn {
+    margin: 0 0 7px 0
+}
+
+.form-group.form-group-sm .input-group-btn .btn {
+    margin: 0 0 3px 0
+}
+
+.form-group.form-group-lg .input-group-btn .btn {
+    margin: 0 0 9px 0
+}
+
+.input-group .input-group-btn {
+    padding: 0 12px
+}
+
+.input-group .input-group-addon {
+    border: 0;
+    background: 0 0
+}
+
+.form-group input[type=file] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100
+}
+.contact-widget-section .single-contact-widget {
+    background: #f9f9f9;
+    padding: 20px 25px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+    height: 260px;
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out
+}
+
+.contact-widget-section .single-contact-widget i {
+    font-size: 75px
+}
+
+.contact-widget-section .single-contact-widget h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    padding-bottom: 10px
+}
+
+.contact-widget-section .single-contact-widget p {
+    line-height: 16px
+}
+
+.contact-widget-section .single-contact-widget:hover {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.46);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+#contactForm {
+    margin-top: -10px
+}
+
+#contactForm .form-group label.control-label {
+    color: #8c8c8c
+}
+
+#contactForm .form-control {
+    font-weight: 500;
+    height: auto
+}
+      html {
+  scroll-behavior: smooth;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+    </style>
+    <script src="top.js" type="text/javascript"></script>
+</head>
+<body>
+        <nav   class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div style="background-color:#ffff66; " class="container">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="logo.jpg"><span>.</span></a>
+        <button style="color: black" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="color: black" class="oi oi-menu"></span><i style="color: black">menu</i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item "><a href="demo.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          
+            <li class="nav-item"><a href="meals.html" class="nav-link">Meals</a></li>
+            <li class="nav-item"><a href="catering.html" class="nav-link">catering</a></li>
+            <li class="nav-item"><a href="gal.html" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="award.html" class="nav-link">Award</a></li>
+            <li class="nav-item "><a href="contact.html" class="nav-link">Contact</a></li>
+             <li class="nav-item active"><a href="Feedback.html" class="nav-link">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<!-- Contact Us Section -->
+    <section class="Material-contact-section section-padding section-dark">
+      <div class="container">
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                  <h1 class="section-title">My feedback</h1>
+              </div>
+          </div>
+          <div class="row">
+              <!-- Section Titile -->
+             
+              <!-- contact form -->
+              <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                      <!-- Name -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input style="color: black" class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- email -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Subject -->
+                      <div class="form-group label-floating">
+                        <label class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Message -->
+                      <div class="form-group label-floating">
+                          <label for="message" class="control-label">Message</label>
+                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Form Submit -->
+                      <div class="form-submit mt-5">
+                          <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+     <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<section style="margin-bottom: -100px" class="ftco-subscribe ftco-section bg-light">
+      <div class="overlay">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8 text-wrap text-center heading-section ftco-animate">
+              <h2 class="mb-4"><span>Subcribe to our Newsletter</span></h2>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <div class="row d-flex justify-content-center mt-4 mb-4">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!---foter--->
+ <footer style="margin-bottom: -300px; margin-top: 190px" class="ftco-footer ftco-footer-2 ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Stories</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Terms of Uses</a></li>
+                <li><a href="#" class="py-2 d-block">About Stories</a></li>
+                <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                <li><a href="#" class="py-2 d-block">Accessibility Help</a></li>
+                <li><a href="#" class="py-2 d-block">Advertise with us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Categories</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Food</a></li>
+                <li><a href="#" class="py-2 d-block">Restaurant</a></li>
+                <li><a href="#" class="py-2 d-block">Dessert</a></li>
+                <li><a href="#" class="py-2 d-block">Lifestyle</a></li>
+                <li><a href="#" class="py-2 d-block">Recipes</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+                <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+       
+      </div>
+    </footer>
+
+
+ <!-- loader -->
+  
+
+  
+   <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+   
+
+</body>
+</html>

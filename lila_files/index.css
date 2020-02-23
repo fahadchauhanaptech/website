@@ -1,0 +1,1049 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img[src="http://move.pk/images/cheap-hosting-pakistan.png"]{display:none;}
+a[href="http://www.winshosting.com/scripts-hosting.html"]{display:none;}
+div[style="text-align:center"]{display:none}
+body , html{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 50;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #EFA52C;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#wrapper{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+	position: absolute;
+
+}
+.slider img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+.afterSlider{
+	background-color:#cc2900;
+}
+.logo{
+height: 90px;
+width: 20%;
+float: left;
+background-color: black;
+}
+#nav{
+}
+#vinegar{
+	font-size: 296%;
+	color:#EFA52C;
+	font-family: "Brush Script MT", cursive;
+	margin-left: 30%;
+	line-height: 70%;
+}
+.thanks{
+	height: auto;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	background-color: #f2f2f2;
+	margin-bottom: 4%;
+	margin-top: 20%;
+}
+.thanks p{
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-size:20px;
+}
+#menuicon{
+	height: 53%;
+    width: 17%;
+    float: left;
+    margin-top: -37px;
+    display: none;
+}
+#menuicon img{
+	height: 100%;
+	width: 100%;
+}
+#food{
+	font-size: 125%;
+	color: white;
+	margin-left: 28%;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+    letter-spacing: .10em;
+}
+.links{
+	width: 80%;
+	height: 90px;
+	float: right;
+	background-color: black;
+	display: block;
+}
+.links ul{
+	padding: 0;
+	list-style-type: none;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+.links li{
+	float: left;
+	margin-left: 4px;
+	margin-right: 0px;
+	height: 70px;
+	display: inline;
+
+}
+.links li a{
+	text-decoration: none;
+	height: 90px;
+	font-size: 16px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 9px;
+	color: white;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+
+	
+}
+.links li:hover{
+	background-color: #EFA52C;
+	transition: background-color .4s;
+}
+a.active{
+	background-color: #EFA52C;
+}
+
+
+/*#EFA52C*/
+
+#section-one{
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	padding-top: 90px;
+}
+.welcome_div{
+	height: 500px;
+	width: 80%;
+	background-color: black;
+	opacity: .7;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	position: relative;
+	z-index: 2;
+}
+#welcome{
+	margin-left: 360px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 40px;
+	color: white;
+}
+#W{
+	font-size: 90px;
+	font-family: "Brush Script MT", cursive;
+	color: white;
+}
+#vinegars{
+	margin-left: 300px;
+	font-family: "Brush Script MT", cursive;
+	font-size: 90px;
+	color: #EFA52C;
+}
+#restaurant{
+	margin-left: 40px;
+}
+.section-two{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+.gradient{
+	width: 100%;
+	height:7px;
+	background:#EFA52C;
+	border-radius: 20px;
+}
+.about{
+	font-family:Papyrus, fantasy;
+	font-weight: lighter;
+	color:black ;
+	font-size: 250%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	position: relative;
+	margin-top:2%;
+	float: none;
+}
+#headingLines-2{
+	width: 200px;
+	height:2px;
+	border-radius: 7px;
+	background-color: #EFA52C;
+	margin-top: 0px;
+	margin-right: 565px;
+	float: right;
+}
+#transparent_about{
+	height: auto;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 135%;
+	color: black;
+	word-wrap: break-word;
+	background-color: transparent;
+	padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
+    line-height: 161%;
+	position: relative;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	margin-bottom: 0px;
+}
+#leftq{
+margin-left: 3%;
+margin-top: 5%;
+float: left;
+}
+#rightq{
+	float: right;
+	margin-top: 5%;
+	position: relative;
+	margin-top: -6%;
+	display: inline;
+	margin-right: 2%;
+}
+#readmore{
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+#readmorebtn{
+	height: 50px;
+	width: 200px;
+	color: white;
+	background-color:#EFA52C;
+
+	text-transform: uppercase;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    transition: background-color .2s;
+}
+#readmorebtn:hover{
+	background-color: #ff9900;
+	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	transition: background-color .2s;
+	-webkit-transition: box-shadow .2s;
+	-moz-transition: box-shadow .2s;
+	transition: box-shadow .2s;
+    box-shadow: -1px 2px 10px #d27903;
+    
+
+}
+#section-three{
+	background-color: #f2f2f2;
+	height: 400px;
+	width: 100%;
+	margin-top:7%;
+}
+.What_we_do{
+	font-family:Papyrus, fantasy;
+	font-weight: lighter;
+	color:black ;
+	font-size: 282%;
+    margin-left: 34%;
+    width: 30%;
+    margin-top: 8%;
+}
+.headingorange{
+	height: 2px;
+	width: 20%;
+	background-color:#EFA52C;
+	margin-left: 35%;
+	position: absolute;
+}
+
+#cardone, #cardtwo, #cardthree {
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 9%;
+    margin-top: 6%;
+}
+/*#cardtwo , #cardthree{
+	margin-left: 90px;
+}*/
+#cont{
+	padding: 2% 3.5% 2% 3.5%;
+}
+#cont h2{
+	font-size:166%; 
+	color: #EFA52C;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#cont p{
+	font-size: 126%
+	margin-left: 2%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#card_img{
+    margin-left: 12%;
+}
+#section-four{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding-top: 1%;
+	
+	
+}
+.Special_dish{
+	font-family:Papyrus, fantasy;
+	font-weight: lighter;
+	color:black ;
+	font-size: 264%;
+	margin-left: 36%;
+    width: 30%;
+    margin-top: 4%
+}
+.headingorangedish{
+	height: 2px;
+	width: 25%;
+	background-color:#EFA52C;
+	margin-left: 36%;
+	position: absolute;
+}
+#cards-container{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 0px;
+	position: absolute;
+	
+}
+.dishcardsone{
+	border: 2px dotted #EFA52C;
+	height: 66%;
+	width: 300px;
+	padding: 0px;
+	border-radius: 60px 60px 0 0;
+	float: left;
+	position: relative;
+	transition: box-shadow .5s;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 7%;
+}
+.dishcardsone:hover{
+	box-shadow: 1px 5px 12px black;
+	transition: box-shadow .5s;
+}
+.c-img{
+	height: 80%;
+	width: 100%;
+	margin: 0px;
+	    border-radius: 17% 17% 0 0;
+	z-index: 32;
+}
+.c-img img{
+	border-radius: 17% 17% 0 0;
+	z-index: 30;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+#text{
+	height: auto;
+	width: 100%;
+	background-color: #EFA52C;
+	height:20%;
+    position:absolute;
+}
+#text p{
+	font-size: 180%;
+	color: white;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 0px;
+    }
+#fifth-section{
+	height: 600px;
+	width:100%;
+	background-color:#f2f2f2;
+}
+#image-testimonial{
+	width: 50%;
+	height: 600px;
+	float: left;
+	border-right: 5px groove #EFA52C;
+}
+#image-testimonial img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.parent_t{
+	height: 600px;
+	width: 50%;
+	float: right;
+}
+.head_t{
+	width: 100%;
+	height: 40%;
+	padding-top: 8%;
+}
+.about_te{
+    font-family: Papyrus,fantasy;
+	
+	font-weight: lighter;
+	color:black ;
+	font-size: 40px;
+	margin-left:30%;
+	width: 20%;
+	position: relative;
+	float: none;
+	}
+#headingLines-te{
+    width: 36%;
+	height:2px;
+	border-radius: 7px;
+	background-color: #EFA52C;
+	margin-top: 0px;
+	margin-right: 30.9%;
+	float: right;
+}
+#_2{
+    height:60%;
+	width: 100%;
+	padding-top: 20px;
+	display: none;
+	position: relative;
+    z-index: 0;
+}
+#_3{
+	height:60%;
+	width: 100%;
+	padding-top: 20px;
+	display: none;
+	position: relative;
+    z-index: 0;
+    }
+#_1{
+	height:60%;
+	width: 100%;
+	padding-top: 20px;
+	display: none;
+	position: relative;
+    z-index: 0;
+}
+.man-image{
+	height: 50%;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -50px;
+}
+.man-image img{
+	height: 100%;
+	width: 100%;
+	border:5px double #EFA52C;
+	border-radius: 40px;
+}
+.person-name{
+	width: 100%;
+	height: 20%;
+}
+.person-name h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.person-c{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+}
+.leftqq , .rightqq{
+	height: 30px;
+	width: 30px;
+}
+.leftqq img{
+	width: 4%;
+	height: 4%;
+	margin-right: 20px;
+}
+.rightqq img{
+	width: 4%;
+	height: 4%;
+	margin-left: 20px;
+}
+#footer{
+	height: 500px;
+	width: 100%;
+	background-color: blue;
+	z-index: 5;
+}
+/* about us page */
+.first-section_about{
+	height: 200px;
+	width: 100%;
+    background-color:#EFA52C;
+}
+.first-section_about p{
+font-size: 550%;
+text-align: center;
+color: white;
+line-height: 105px;
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+text-transform: uppercase;
+}
+
+
+.second-section-about{
+	height: 400px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:2%; 
+}
+.second-section-about img{
+	height: 100%;
+	width: 100%;
+}
+.third-section-about{
+	height: auto;
+	width: 80%;
+	background-color: #f2f2f2;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 40px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	box-shadow: 7px 4px 20px black;
+}
+.third-section-about h2{
+font-size: 40px;
+color: #EFA52C;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,  
+}
+.third-section-about p{
+word-wrap: break-word;
+font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+text-align: justify;
+}
+
+/*recipe_of_the_month*/
+
+.second-section-recipe{
+	height: 400px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	border: 5px ridge #EFA52C;
+	box-shadow: 0px 2px 29px black;
+	position: relative;
+}
+.second-section-recipe img{
+	height: 100%;
+	width: 100%;
+}
+.third-section-recipe{
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #f2f2f2;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.third-section-recipe h2{
+	text-align: center;
+	color: #EFA52C;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic
+}
+.third-section-recipe p{
+	font-size: 20px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+/*Gallery*/
+.second-section-gallery{
+	height: 1400px;
+    width: 90%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    background-color: #f2f2f2;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    box-shadow: 7px 4px 20px black;
+}
+.second-section-meals-images{
+	height: 1400px;
+    width: 90%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    background-color: #f2f2f2;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    box-shadow: 7px 4px 20px black;
+}
+.g-imgs {
+    margin-top: 130px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    float: left;
+    border: 2px solid #EFA52C;
+}
+
+.g-imgs:hover {
+	transition: box-shadow .4s;
+    box-shadow: 7px 4px 20px black;
+}
+
+.g-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.g-desc {
+    font-size: 34px;
+    padding: 15px;
+    text-align: center;
+    color: #EFA52C;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    text-align: center;
+}
+#cooking{
+	font-size: 20px;
+
+}
+/*awards*/
+.second-section-awards{
+height: 1000px;
+    width: 80%;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 72%;
+    background-color: #f2f2f2;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    box-shadow: 7px 4px 20px black;
+}
+.awardsspan{
+	font-size: 61%;
+}
+/*contactus*/
+.second-section-contact{
+	margin-top: 4%;
+}
+/*meals*/
+.second-section-meals{
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #f2f2f2;
+	margin-top: 3%;
+}
+ul.tabpages{
+	list-style-type: none;
+}
+ul.tabpages li{
+	height: 90px;
+	text-align: center;
+	font-family: Lato;
+	background-color: #595959;
+	color: white;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 82px;
+    font-size: 40px;
+    cursor: pointer;
+    display: table-cell;
+    width: 1%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #FFF;
+    border-width: 0 1px 0 0;
+}
+ul.tabpages li a{
+	text-decoration: none;
+	display: inline-block;
+	height: 90px;
+	width: 100%;
+	background-color: #595959;
+}
+ul.tabpages li a:hover{
+	background-color: #333333;
+	transition: background-color .4s;
+
+}
+
+ul.tabpages li a:focus, .active {background-color: black;}
+
+.x{
+	height: auto;
+	width: 40%;
+	background-color: #f2f2f2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background-color: #EFA52C;
+}
+.x p{
+	font-family: Lato;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    font-size: 417%;
+}
+.Tab{
+	display: none;
+}
+/*media queries*/
+
+
+
+
+/*feedback page*/
+@media(max-width: 1262px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+     #fifth-section {
+		display: none;
+	}
+	#headingLines-2{
+		display: none;
+	}
+	#readmorebtn{
+	width:120%;
+}
+	.second-section-meals-images{
+		height:6000px;
+	}
+.second-section-awards{
+    height: 5597px;
+    width: 100%;
+    margin-top: 4%;
+    padding-left: 1%;
+    padding-right: 7%;
+}
+.second-section-gallery{
+    height: 3565px;
+    width: 34%;
+    margin-top: 4%;
+    padding-left: 1%;
+    padding-right: 7%;
+}
+
+.g-imgs a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.g-imgs{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+@media(max-width: 1174px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.headingorange{
+		display: none;
+	}
+	.dishcardsone{
+		width: 25%;
+		margin-left: 37%;
+	}
+	.second-section-meals-images{
+		height:6000px;
+		margin-bottom: 5%;
+	}
+	#leftq img , #rightq img{
+		height: 20px;
+		width:20px;
+	}
+}
+@media(max-width: 1114px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+#section-one{
+	height: 300px;
+}
+.welcome_div{
+	display: none;
+}
+#readmore{
+    margin-bottom: 20%;
+}
+.second-section-awards{
+    height: 5597px;
+    width:100%
+}
+.second-section-gallery {
+    height: 3361px;
+    width:
+}
+.logo{
+	width: 100%;
+    display: block;
+    padding-left: 15%
+}
+.links{
+	display: none;
+}
+#food{
+	font-size: 151%;
+    margin-left: 26%;
+    
+}
+#vinegar{
+	font-size: 393%;
+}
+.g-desc {
+    padding: 3%;
+    }
+.menu{
+    height: 5%;
+    width: 4%;
+    display: block;
+    margin-top: 1%;
+    left: 1%;
+    position: absolute;
+}
+.first-section_about p{
+	font-size:163%;
+}
+.second-section-recipe {
+    height: auto;
+    width: auto;
+    }
+    .second-section-about {
+    height: auto;
+    width: auto;
+}
+}
+@media(max-width: 1099px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.second-section-meals-images{
+		height:5572px;
+	}
+	.second-section-awards{
+    height: 5300px;
+}
+}
+@media(max-width: 1000px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.dishcardsone{
+		width: 40%;
+    margin-left: 30%;
+}
+	.second-section-meals-images{
+		height:5247px;
+	}
+.second-section-awards{
+    height: 4865px;
+}
+
+}
+@media(max-width: 894px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.second-section-meals-images{
+		height:4745px;
+	}
+	ul.tabpages li{
+	display: inline;
+}
+	.menu{
+    height: 28px;
+    width: 30px;
+	}
+	.second-section-awards{
+    height: 4400px;
+}
+.second-section-gallery {
+    height: 3221px;
+}
+
+}
+@media(max-width: 772px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.second-section-meals-images{
+		height: 4243px;
+	}
+	.headingorangedish{
+		display: none;
+	}
+	.second-section-awards{
+    height: 3866px;
+}
+}
+@media(max-width: 712px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.second-section-meals-images{
+		height: 4024px;
+	}
+		.second-section-awards{
+    height: 3578px;
+}
+}
+@media(max-width: 596px){
+	div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	#section-three{
+		height:600px;
+}
+	.about {
+    font-size: 155%;
+}
+	.second-section-meals-images{
+		height: 3719px;
+		width: 100%;
+	}
+	.x p{
+		font-size: 200%;
+	}
+	ul.tabpages li {
+    font-size: 32px;
+}
+	.second-section-awards{
+    height: 3278px;
+}
+}
+@media(max-width: 520px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.dishcardsone {
+    width: 60%;
+    margin-left: 20%;
+}
+	.second-section-meals-images{
+		height:3019px;
+	}
+.first-section_about p{
+	font-size:163%;
+}
+.second-section-awards{
+	width: 100%;
+	height: 2441px;
+}
+.second-section-gallery{
+	width: 100%;
+	height: 3325px;
+}
+.g-imgs{
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+}
+@media(max-width: 409px){
+div[style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999"]{display:none}
+	.second-section-meals-images{
+		height: 2661px;
+	}
+	#vinegar {
+    font-size: 356%;
+    margin-left: 27%;
+    margin-bottom: 5%;
+
+}
+.third-section-recipe {
+    height: auto;
+    width: 100%;
+    }
+#food {
+    font-size: 118%;
+    margin-left: 18%;
+}
+.second-section-awards{
+height:2256px;
+}
+.second-section-gallery{
+height:3140px;
+}
+}
